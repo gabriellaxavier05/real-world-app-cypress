@@ -74,6 +74,83 @@
       "balance": 49474,
       "createdAt": "2023-12-07T04:39:38.383Z",
       "modifiedAt": "2024-03-07T00:07:36.510Z"
+    },
+    {
+      "id": "N5oXQQqci",
+      "uuid": "fb23bd23-d82f-4e16-9436-c30f7eb3daaf",
+      "firstName": "Lucas",
+      "lastName": "Gadelha",
+      "username": "llucasgadelha",
+      "password": "$2a$10$Ck2PSkQ7sGpan0q3DYWo5ObcKZLiEWL6KxvBwCAFCsrnilbTX88YC",
+      "balance": 0,
+      "createdAt": "2025-05-22T21:53:55.895Z",
+      "modifiedAt": "2025-05-22T21:53:55.895Z"
+    },
+    {
+      "id": "DC6ikIJQJ",
+      "uuid": "ad33c5ba-e20b-47ff-9d61-9ffba46b9c41",
+      "firstName": "Lucas",
+      "lastName": "Gadelha",
+      "username": "lucasgadelha",
+      "password": "$2a$10$/y0Mp.D6z7Beq3doDQuBdOOgobZ04QuuDCFLbRDCtnVjV4QGtfsj6",
+      "balance": 0,
+      "createdAt": "2025-05-22T22:06:31.427Z",
+      "modifiedAt": "2025-05-22T22:06:31.427Z"
+    },
+    {
+      "id": "RSKOPHEi9",
+      "uuid": "54b46f0c-bdce-48e1-8ea7-62cb07d7ea77",
+      "firstName": "Lucas",
+      "lastName": "Gadelha",
+      "username": "lucasgadelha",
+      "password": "$2a$10$Vscm9F203y3XcSM9.HTTkeYNprzrrgl1/EOHV16auqHIMK4R3/smq",
+      "balance": 0,
+      "createdAt": "2025-05-22T22:07:00.109Z",
+      "modifiedAt": "2025-05-22T22:07:00.109Z"
+    },
+    {
+      "id": "5n9lU40Lo",
+      "uuid": "2b33087d-bbf8-4d32-b57d-3dc1de6a8d1c",
+      "firstName": "Lucas",
+      "lastName": "Gadelha",
+      "username": "lucasgadelha",
+      "password": "$2a$10$iD0HXJYODikMvW5lKUjjtO.VqvAqUM0.3EY9ZUChGMKp059XPi1Q.",
+      "balance": 0,
+      "createdAt": "2025-05-22T22:08:42.432Z",
+      "modifiedAt": "2025-05-22T22:08:42.432Z"
+    },
+    {
+      "id": "LxW2lh6Ox",
+      "uuid": "89fff5cc-8010-4bfc-ac2d-b267a8ccfe6f",
+      "firstName": "Lucas",
+      "lastName": "Gadelha",
+      "username": "lucasgadelha",
+      "password": "$2a$10$9LIvZa/3izoGqV8Cjn6wPulAUotrebtwYguTON.g5nZDVleR44VYy",
+      "balance": 0,
+      "createdAt": "2025-05-22T22:09:43.085Z",
+      "modifiedAt": "2025-05-22T22:09:43.085Z"
+    },
+    {
+      "id": "tEQZRtZjR",
+      "uuid": "75aa9f08-2440-4823-92ac-7d49147ef36c",
+      "firstName": "Lucas",
+      "lastName": "Gadelha",
+      "username": "lucasgadelha",
+      "password": "$2a$10$X3N/dBPpPp5NSgkhTpkFUuCDsfEjrvMUNViai.wRBOx1W/cyqeg6q",
+      "balance": 0,
+      "createdAt": "2025-05-22T22:10:16.070Z",
+      "modifiedAt": "2025-05-22T22:10:16.070Z"
+    },
+    {
+      "id": "GKSa5S0Ku",
+      "uuid": "8c0e1cfc-da01-4409-ba11-a32bbe3c6184",
+      "firstName": "Lucas",
+      "lastName": "Gadelha",
+      "username": "lucasgadelha",
+      "password": "$2a$10$3UAlDodiWCl6waijb/nXXeNbCZBkMW35dWSyQKbanvRQ.csNrrNv2",
+      "balance": 0,
+      "createdAt": "2025-05-22T22:10:28.061Z",
+      "modifiedAt": "2025-05-22T22:10:28.061Z"
     }
   ],
   "contacts": [
