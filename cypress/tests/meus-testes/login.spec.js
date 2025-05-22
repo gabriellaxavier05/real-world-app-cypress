@@ -1,7 +1,6 @@
 import userData from '../../fixtures/userData.json' // importação do arquivo JSON com dados do usuário
 
 describe('Testes de Login', () => {
-    // objetos de seletores
     const seletoresLogin = {
         username: "[name='username']",
         password: "[name='password']",
@@ -10,7 +9,6 @@ describe('Testes de Login', () => {
         abasHome: ".MuiTab-root",
         alertaErroLogin: "[role='alert']",
     }
-
 
     it.only('Login com sucesso', () => {
         cy.visit('http://localhost:3000/signin')
