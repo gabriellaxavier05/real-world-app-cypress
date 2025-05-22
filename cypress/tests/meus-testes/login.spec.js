@@ -1,3 +1,5 @@
+import userData from '../../fixtures/userData.json' // importação do arquivo JSON com dados do usuário
+
 describe('Testes de Login', () => {
     // objetos de seletores
     const seletoresLogin = {
@@ -10,19 +12,19 @@ describe('Testes de Login', () => {
     }
 
 
-    it('Login com sucesso', () => {
+    it.only('Login com sucesso', () => {
         cy.visit('http://localhost:3000/signin')
-        cy.get(seletoresLogin.username).type('Heath93')
-        cy.get(seletoresLogin.password).type('s3cret')
+        cy.get(seletoresLogin.username).type(userData.usuarioSucesso.username)
+        cy.get(seletoresLogin.password).type(userData.usuarioSucesso.password)
         cy.get(seletoresLogin.checkboxRemember).click({force: true})
         cy.get(seletoresLogin.btnSignIn).click()
         cy.get(seletoresLogin.abasHome).eq(0).should('contain', 'Everyone')
     });
 
-    it.only('Login com credenciais inválidas', () => {
+    it('Login com credenciais inválidas', () => {
         cy.visit('http://localhost:3000/signin')
-        cy.get(seletoresLogin.username).type('Heath30')
-        cy.get(seletoresLogin.password).type('secreto')
+        cy.get(seletoresLogin.username).type(userData.usuarioErro.username)
+        cy.get(seletoresLogin.password).type(userData.usuarioErro.password)
         cy.get(seletoresLogin.checkboxRemember).click({force: true})
         cy.get(seletoresLogin.btnSignIn).click()
         cy.get(seletoresLogin.alertaErroLogin)
